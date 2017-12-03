@@ -5,7 +5,6 @@ html {
   font-size: 18px;
 }
 
-
 /*Header Starts Here*/
 header {
   height:64px;
@@ -13,6 +12,7 @@ header {
   display:flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .logo {
@@ -106,7 +106,10 @@ a {
   width: 60%;
   flex-direction: column;
   padding: 32px 24px;
-  border: solid 2px blue;
+}
+
+.left-container img {
+  height: 400px;
 }
 
 .left-container h2 {
@@ -124,7 +127,6 @@ a {
   width: 40%;
   flex-direction: column;
   border-left: 2px solid #dddddd;
-  border: solid 2px blue;
   padding-bottom: 32px;
 }
 
@@ -132,6 +134,7 @@ a {
   display: inline-flex;
   border-bottom: 3px solid #dddddd;
   overflow:hidden;
+  align-items: center;
 }
 
 .information:last-child {
@@ -144,6 +147,7 @@ a {
   width: 35%;
   max-height: 200px;
   padding: 16px;
+
 }
 
 .information-text {
@@ -154,4 +158,9 @@ a {
   flex-direction: column;
   justify-content: center;
   padding-left: 16px;
+}
+
+.information-text p, h3 {
+  padding: 4px;
+  margin: 4px;
 }
