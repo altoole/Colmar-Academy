@@ -7,7 +7,7 @@ html {
 }
 
 h1, h2, h3 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Viga', sans-serif;
 }
 
 /*Header Starts Here*/
@@ -39,8 +39,8 @@ header {
 
 nav li{
   display: inline-flex;
-  flex-direction: column;
   padding: 8px;
+  flex-direction: column;
   justify-content: flex-end;
   font-weight: 500;
   color: #7d7984;
@@ -120,10 +120,6 @@ a {
 
 .left-container video{
   height: 400px;
-}
-
-.left-container h2 {
-  color: #474448;
 }
 
 .author {
@@ -229,7 +225,6 @@ a {
 
 /*Third Content Container Starts Here*/
 .third-content-container {
-  border: 2px solid blue;
   display: flex;
   width: 100%;
   background-color: #f9f9f9;
@@ -240,76 +235,23 @@ a {
   text-align: center;
 }
 
-.left-container {
+/*Footer Starts Here*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 2px solid #dddddd;
+  background-color: white;
+}
+
+.footer {
   display: inline-flex;
-  width: 60%;
-  margin: 32px 24px;
-}
-
-.left-container img {
-  height: 400px;
-}
-
-.left-container video{
-  height: 400px;
-}
-
-.left-container h2 {
-  color: #474448;
-}
-
-.author {
-  font-weight: bold;
-  font-size: 0.8rem;
-}
-
-.right-container {
-  display: inline-flex;
-  width: 40%;
-  flex-direction: column;
-  border-left: 2px solid #dddddd;
-  padding-bottom: 32px;
-}
-
-.information {
-  display: inline-flex;
-  border-bottom: 3px solid #dddddd;
-  overflow:hidden;
-}
-
-.information:last-child {
-  background-color: #dddddd;
-}
-
-.information img {
-  height: auto;
-  flex-grow:0.35;
-  width: 35%;
-  max-height: 200px;
-  padding: 16px;
+  justify-content: flex-start;
+  height: 32px;
 
 }
 
-.information-text {
-  display: inline-flex;
-  flex-grow: 0.65;
-  width: 65%;
-  height: auto;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 16px;
-}
-
-.information-text p, h3 {
-  padding: 4px;
-  margin: 4px;
-}
-
-.information a {
-  color: #3694d9;
-  transition: all 150ms linear 150ms;
-}
-
-.information a:hover {
-  color: #f0961b;
+footer a {
+   justify-content: flex-end;
 }
