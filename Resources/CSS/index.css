@@ -4,6 +4,7 @@ html {
   margin: 0;
   font-size: 18px;
   color:#474448;
+  background-color: #f9f9f9;
 }
 
 h1, h2, h3 {
@@ -66,7 +67,7 @@ a {
 
 .banner img {
   width: 60%;
-  height: 500px;
+  max-height: 500px;
   padding: 32px 24px;
 }
 
@@ -102,7 +103,6 @@ a {
 .first-content-container {
   display: flex;
   width: 100%;
-  background-color: #f9f9f9;
 }
 
 .left-container {
@@ -115,7 +115,7 @@ a {
 .third-content-container
 
 .left-container img {
-  height: 400px;
+  max-height: 400px;
 }
 
 .left-container video{
@@ -191,7 +191,7 @@ a {
 .course-section {
   display: inline-flex;
   flex-flow: wrap;
-  padding: 0 72px;
+  margin: 0 72px;
 }
 
 .course {
@@ -199,7 +199,7 @@ a {
   flex-direction: column;
   background-color: white;
   margin: 16px;
-  width: 30%;
+  max-width: 30%;
   text-align: left;
 }
 
@@ -233,6 +233,15 @@ a {
 
 .third-content-container h2:first-of-type {
   text-align: center;
+}
+
+.third-content-container .information:first-child {
+  background-color: #dddddd;
+}
+
+.third-content-container .information:last-child {
+  background-color: #f9f9f9;
+  border: none;
 }
 
 /*Footer Starts Here*/
