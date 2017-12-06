@@ -37,7 +37,7 @@ header {
    display: block;
 }
 
-.logo img {
+.logo-icon {
   display:none;
 }
 
@@ -300,12 +300,15 @@ nav li {
   width:100%;
 }
 
-.logo img {
+.logo-icon {
   display: inherit;
+}
+
+.logo-icon img{
   transition: all 0.5s linear;
 }
 
-.logo img:hover {
+.logo-icon img:hover {
   width: 150%;
 }
 
